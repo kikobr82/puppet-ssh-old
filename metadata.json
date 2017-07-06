@@ -1,0 +1,15 @@
+{
+  "name": "kikobr82-ssh",
+  "version": "0.1.0",
+  "author": "kikobr82",
+  "summary": "Install SSH server",
+  "license": "Apache-2.0",
+  "source": "https://github.com/kikobr82/Puppet",
+  "project_page": "https://github.com/kikobr82/Puppet",
+  "issues_url": "https://github.com/kikobr82/Puppet/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ],
+  "data_provider": null
+}
+
