@@ -16,6 +16,9 @@ class ssh::params {
 #    fail("${facts['operating system']} is not supported!")
 #  }
 
+
+$permit_root_login = false
+$port = 22
   #case $facts['os']['family'] {
   case $facts['operatingsystem'] {
    'Debian', 'Ubuntu': {
